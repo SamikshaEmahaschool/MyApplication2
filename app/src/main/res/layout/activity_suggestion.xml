@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Suggestion">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Name"
+                android:layout_margin="8dp"
+                android:textSize="17dp"
+                android:textColor="@color/grey_60"
+                />
+
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:id="@+id/name"
+                style="@style/EditText.Flat.Grey.Small"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/outlinesuggestion"
+                android:inputType="text"
+                android:minHeight="35dp" />
+
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Email"
+                android:layout_margin="8dp"
+                android:textSize="17dp"
+                android:textColor="@color/grey_60"
+                />
+
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:id="@+id/email"
+                style="@style/EditText.Flat.Grey.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/outlinesuggestion"
+                android:inputType="textEmailAddress"
+                android:minHeight="35dp" />
+
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suggestion"
+                android:layout_margin="8dp"
+                android:textSize="17dp"
+                android:textColor="@color/grey_60"
+                />
+
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:id="@+id/description"
+                style="@style/EditText.Flat.Grey.Small"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/outlinesuggestion"
+                android:inputType="text"
+                />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sub"
+                android:background="@drawable/btn_rounded_amber"
+                android:text="Submit"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

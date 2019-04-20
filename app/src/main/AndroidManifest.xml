@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emahaschool.EmsApp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".Shipping" />
+        <activity android:name=".AddToWishList" />
+        <activity android:name=".AddToCart" />
+        <activity android:name=".CardFullView" />
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".NewRatingBar" />
+        <activity android:name=".Suggestion" />
+        <activity android:name=".RatingsAndReviews" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".RegisterationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

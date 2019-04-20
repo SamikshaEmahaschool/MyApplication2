@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="light_green_400">#9CCC65</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="teal_500">#009688</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="grey_5">#f2f2f2</color>
+    <color name="color_parrot">#A8E7D2</color>
+
+    <color name="red_300">#E57373</color>
+    <color name="red">#ff282f</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="green_300">#81C784</color>
+    <color name="blue_grey_300">#90A4AE</color>
+
+    <color name="blue_grey_200">#B0BEC5</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="grey_00">#263238</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_80">#37474F</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="overlay_light_30">#4DFFFFFF</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+
+
+    <color name="purple_400">#AB47BC</color>
+    <color name="ligh_indigo">#e2d1fc</color>
+
+    <color name="blue_grey_400">#78909C</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="bordercolor">#9999DB</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="cyan_300">#4DD0E1</color>
+    <color name="blue_homepage">#0582c5</color>
+
+
+    <color name="amber_500">#FFC107</color>
+    <color name="amber_600">#FFB300</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="yellow_600">#FDD835</color>
+    <color name="orange_200">#FFB74D</color>
+    <color name="deep_orange_300">#FF8A65</color>
+
+
+</resources>
